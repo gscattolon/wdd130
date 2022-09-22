@@ -2,6 +2,7 @@
   nav {
     background-color: steelblue;
     padding: 10px;
+    color: white;
     text-align: center;
   }
   a {
@@ -27,6 +28,7 @@
     background-color: steelblue;
     color: white;
     text-align: center;
+    padding: 10px;
   }  
   
   main p {
@@ -34,3 +36,11 @@
     margin: 50px auto;
     text-align: center;
   }
+  footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
