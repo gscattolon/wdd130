@@ -1,9 +1,8 @@
-body {
-    text-align: center;
-  }
+
   nav {
     background-color: steelblue;
     padding: 10px;
+    text-align: center;
   }
   a {
     color: white;
@@ -12,10 +11,13 @@ body {
   }
   h1 {
     color: steelblue;
+    text-align: center;
   }
   img {
     width: 80%;
     border: 4px solid steelblue;
+    display: block;
+    margin: 0 auto;
   }
   p {
     padding: 10px;
@@ -24,4 +26,11 @@ body {
   footer {
     background-color: steelblue;
     color: white;
-  }      
+    text-align: center;
+  }  
+  
+  main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
