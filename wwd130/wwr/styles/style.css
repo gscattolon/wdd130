@@ -13,7 +13,7 @@
     color: #f9f7fc;
     text-decoration: none;
     text-align: center;
-
+    padding: 35px;
   }
   #hero-msg h1 {
     text-align: center;
@@ -36,7 +36,10 @@
     background-color: #8AC926;
   }
   body {
-    background-color: #b486fa; 
+    background-color: #b486fa;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #6A4C93;
@@ -49,10 +52,17 @@ nav a:hover {
 .book {
     background-color: #FFCA3A;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: #FFCA3A;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #8AC926;
@@ -61,16 +71,19 @@ nav a:hover {
 .join:hover {
     background-color: #8AC926;
     color: #f9f7fc;
+    font-size: 18px;
 }
 .msg {
     background-color: #FFFFFF;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #6A4C93;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
-.home-title {
-    color: #f9f7fc;
-}
+
 h4 {
     color: #FFCA3A;
 }
@@ -82,6 +95,8 @@ h4 {
 }
 .msg p {
     color: #6A4C93;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #000;
@@ -95,6 +110,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -113,4 +129,34 @@ footer p a:hover {
 }
 p {
     font-family: var(--paragraph-font);       
+}
+.home-title {
+    color: #f9f7fc;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg h2 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 3em;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #6A4C93;
+}
+main section img {
+    box-sizing: border-box;
+    border: 2px solid #6A4C93;
 }
