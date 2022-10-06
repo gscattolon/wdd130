@@ -15,13 +15,13 @@ Fonts are separated by a | */
   --paragraph-font: Roboto Condensed, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #FFEA00;  /* headlines on a white background */ 
-  --headline-color-on-color: #FFEA00; /* headlines on a colored background */ 
+  --headline-color-on-white: #FF7B00;  /* headlines on a white background */ 
+  --headline-color-on-color: #f5e10c; /* headlines on a colored background */ 
   --paragraph-color-on-white: #FFB700; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FFF; /* paragraph text on a colored background */ 
   --paragraph-background-color: #FF7B00  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #FFEA00;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #FF7B00;
 }
@@ -175,6 +175,9 @@ nav a:hover {
 }
 .logo {
     width: 400px;
+}
+.homepage {
+    height: 400px;
 }
 body {
     background-color: #c4f80725;
