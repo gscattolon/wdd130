@@ -265,10 +265,11 @@ p.colored {
 ul.a {
     list-style-type: circle;
     text-align: left;
-    padding: 15%;
+    padding: 10%;
     margin: 0;
     max-width: 1200px;
-    padding-top: 45px;          
+    padding-top: 45px; 
+    padding-bottom: 15px;        
 }
 li {
     font-weight: bold;
