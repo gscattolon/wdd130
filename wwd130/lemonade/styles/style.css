@@ -38,6 +38,8 @@ Fonts are separated by a & */
     text-decoration: none;
     text-align: center;
     padding: 55px;
+    font-family: var(--heading-font);  
+    font: size 52px;;
   }
   #hero-msg h1 {
     text-align: center;
