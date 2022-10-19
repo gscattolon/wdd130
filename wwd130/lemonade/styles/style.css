@@ -30,7 +30,7 @@ Fonts are separated by a & */
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
+    text-align: -webkit-center;
   }
   nav a {
     text-align: center;
